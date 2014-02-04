@@ -1,0 +1,14 @@
+PODS:
+  - UIView+MDCTapBack (0.1.0)
+
+DEPENDENCIES:
+  - UIView+MDCTapBack (from `../`)
+
+EXTERNAL SOURCES:
+  UIView+MDCTapBack:
+    :path: ../
+
+SPEC CHECKSUMS:
+  UIView+MDCTapBack: da04e22fe4d1d78fc7a317fc1994c8b26b5e6a9c
+
+COCOAPODS: 0.29.0

@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2649472F4E0D4546B487F287 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BBAA79818E4A9EA8A4B455 /* libPods.a */; };
+		DA3658FF18A0E28600C08650 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3658FE18A0E28600C08650 /* Foundation.framework */; };
+		DA36590118A0E28600C08650 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA36590018A0E28600C08650 /* CoreGraphics.framework */; };
+		DA36590318A0E28600C08650 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA36590218A0E28600C08650 /* UIKit.framework */; };
+		DA36590918A0E28600C08650 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA36590718A0E28600C08650 /* InfoPlist.strings */; };
+		DA36590B18A0E28600C08650 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA36590A18A0E28600C08650 /* main.m */; };
+		DA36590F18A0E28600C08650 /* MDCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA36590E18A0E28600C08650 /* MDCAppDelegate.m */; };
+		DA36591218A0E28600C08650 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA36591018A0E28600C08650 /* Main_iPhone.storyboard */; };
+		DA36591518A0E28600C08650 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA36591318A0E28600C08650 /* Main_iPad.storyboard */; };
+		DA36591818A0E28700C08650 /* MDCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA36591718A0E28700C08650 /* MDCViewController.m */; };
+		DA36591A18A0E28700C08650 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA36591918A0E28700C08650 /* Images.xcassets */; };
+		DA36592118A0E28700C08650 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA36592018A0E28700C08650 /* XCTest.framework */; };
+		DA36592218A0E28700C08650 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3658FE18A0E28600C08650 /* Foundation.framework */; };
+		DA36592318A0E28700C08650 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA36590218A0E28600C08650 /* UIKit.framework */; };
+		DA36592B18A0E28700C08650 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA36592918A0E28700C08650 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA36592418A0E28700C08650 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA3658F318A0E28600C08650 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA3658FA18A0E28600C08650;
+			remoteInfo = MDCTapBack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25BBAA79818E4A9EA8A4B455 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		914F24FEDDB847C8A5745168 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		DA3658FB18A0E28600C08650 /* MDCTapBack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDCTapBack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3658FE18A0E28600C08650 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA36590018A0E28600C08650 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DA36590218A0E28600C08650 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DA36590618A0E28600C08650 /* MDCTapBack-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MDCTapBack-Info.plist"; sourceTree = "<group>"; };
+		DA36590818A0E28600C08650 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA36590A18A0E28600C08650 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA36590C18A0E28600C08650 /* MDCTapBack-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MDCTapBack-Prefix.pch"; sourceTree = "<group>"; };
+		DA36590D18A0E28600C08650 /* MDCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDCAppDelegate.h; sourceTree = "<group>"; };
+		DA36590E18A0E28600C08650 /* MDCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDCAppDelegate.m; sourceTree = "<group>"; };
+		DA36591118A0E28600C08650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		DA36591418A0E28600C08650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		DA36591618A0E28600C08650 /* MDCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDCViewController.h; sourceTree = "<group>"; };
+		DA36591718A0E28700C08650 /* MDCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDCViewController.m; sourceTree = "<group>"; };
+		DA36591918A0E28700C08650 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DA36591F18A0E28700C08650 /* MDCTapBackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDCTapBackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA36592018A0E28700C08650 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DA36592818A0E28700C08650 /* MDCTapBackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MDCTapBackTests-Info.plist"; sourceTree = "<group>"; };
+		DA36592A18A0E28700C08650 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA3658F818A0E28600C08650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA36590118A0E28600C08650 /* CoreGraphics.framework in Frameworks */,
+				DA36590318A0E28600C08650 /* UIKit.framework in Frameworks */,
+				DA3658FF18A0E28600C08650 /* Foundation.framework in Frameworks */,
+				2649472F4E0D4546B487F287 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA36591C18A0E28700C08650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA36592118A0E28700C08650 /* XCTest.framework in Frameworks */,
+				DA36592318A0E28700C08650 /* UIKit.framework in Frameworks */,
+				DA36592218A0E28700C08650 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA3658F218A0E28600C08650 = {
+			isa = PBXGroup;
+			children = (
+				DA36590418A0E28600C08650 /* MDCTapBack */,
+				DA36592618A0E28700C08650 /* MDCTapBackTests */,
+				DA3658FD18A0E28600C08650 /* Frameworks */,
+				DA3658FC18A0E28600C08650 /* Products */,
+				914F24FEDDB847C8A5745168 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		DA3658FC18A0E28600C08650 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA3658FB18A0E28600C08650 /* MDCTapBack.app */,
+				DA36591F18A0E28700C08650 /* MDCTapBackTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA3658FD18A0E28600C08650 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA3658FE18A0E28600C08650 /* Foundation.framework */,
+				DA36590018A0E28600C08650 /* CoreGraphics.framework */,
+				DA36590218A0E28600C08650 /* UIKit.framework */,
+				DA36592018A0E28700C08650 /* XCTest.framework */,
+				25BBAA79818E4A9EA8A4B455 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA36590418A0E28600C08650 /* MDCTapBack */ = {
+			isa = PBXGroup;
+			children = (
+				DA36590D18A0E28600C08650 /* MDCAppDelegate.h */,
+				DA36590E18A0E28600C08650 /* MDCAppDelegate.m */,
+				DA36591018A0E28600C08650 /* Main_iPhone.storyboard */,
+				DA36591318A0E28600C08650 /* Main_iPad.storyboard */,
+				DA36591618A0E28600C08650 /* MDCViewController.h */,
+				DA36591718A0E28700C08650 /* MDCViewController.m */,
+				DA36591918A0E28700C08650 /* Images.xcassets */,
+				DA36590518A0E28600C08650 /* Supporting Files */,
+			);
+			path = MDCTapBack;
+			sourceTree = "<group>";
+		};
+		DA36590518A0E28600C08650 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA36590618A0E28600C08650 /* MDCTapBack-Info.plist */,
+				DA36590718A0E28600C08650 /* InfoPlist.strings */,
+				DA36590A18A0E28600C08650 /* main.m */,
+				DA36590C18A0E28600C08650 /* MDCTapBack-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA36592618A0E28700C08650 /* MDCTapBackTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA36592718A0E28700C08650 /* Supporting Files */,
+			);
+			path = MDCTapBackTests;
+			sourceTree = "<group>";
+		};
+		DA36592718A0E28700C08650 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA36592818A0E28700C08650 /* MDCTapBackTests-Info.plist */,
+				DA36592918A0E28700C08650 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA3658FA18A0E28600C08650 /* MDCTapBack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA36593018A0E28700C08650 /* Build configuration list for PBXNativeTarget "MDCTapBack" */;
+			buildPhases = (
+				058C5D95748B4AE3B5059713 /* Check Pods Manifest.lock */,
+				DA3658F718A0E28600C08650 /* Sources */,
+				DA3658F818A0E28600C08650 /* Frameworks */,
+				DA3658F918A0E28600C08650 /* Resources */,
+				97E7512EABC4409BA50A0281 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDCTapBack;
+			productName = MDCTapBack;
+			productReference = DA3658FB18A0E28600C08650 /* MDCTapBack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA36591E18A0E28700C08650 /* MDCTapBackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA36593318A0E28700C08650 /* Build configuration list for PBXNativeTarget "MDCTapBackTests" */;
+			buildPhases = (
+				DA36591B18A0E28700C08650 /* Sources */,
+				DA36591C18A0E28700C08650 /* Frameworks */,
+				DA36591D18A0E28700C08650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA36592518A0E28700C08650 /* PBXTargetDependency */,
+			);
+			name = MDCTapBackTests;
+			productName = MDCTapBackTests;
+			productReference = DA36591F18A0E28700C08650 /* MDCTapBackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA3658F318A0E28600C08650 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MDC;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = modocache;
+				TargetAttributes = {
+					DA36591E18A0E28700C08650 = {
+						TestTargetID = DA3658FA18A0E28600C08650;
+					};
+				};
+			};
+			buildConfigurationList = DA3658F618A0E28600C08650 /* Build configuration list for PBXProject "MDCTapBack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA3658F218A0E28600C08650;
+			productRefGroup = DA3658FC18A0E28600C08650 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA3658FA18A0E28600C08650 /* MDCTapBack */,
+				DA36591E18A0E28700C08650 /* MDCTapBackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA3658F918A0E28600C08650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA36591518A0E28600C08650 /* Main_iPad.storyboard in Resources */,
+				DA36591A18A0E28700C08650 /* Images.xcassets in Resources */,
+				DA36591218A0E28600C08650 /* Main_iPhone.storyboard in Resources */,
+				DA36590918A0E28600C08650 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA36591D18A0E28700C08650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA36592B18A0E28700C08650 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		058C5D95748B4AE3B5059713 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		97E7512EABC4409BA50A0281 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA3658F718A0E28600C08650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA36590B18A0E28600C08650 /* main.m in Sources */,
+				DA36591818A0E28700C08650 /* MDCViewController.m in Sources */,
+				DA36590F18A0E28600C08650 /* MDCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA36591B18A0E28700C08650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA36592518A0E28700C08650 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA3658FA18A0E28600C08650 /* MDCTapBack */;
+			targetProxy = DA36592418A0E28700C08650 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA36590718A0E28600C08650 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA36590818A0E28600C08650 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DA36591018A0E28600C08650 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA36591118A0E28600C08650 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		DA36591318A0E28600C08650 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA36591418A0E28600C08650 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		DA36592918A0E28700C08650 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA36592A18A0E28700C08650 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA36592E18A0E28700C08650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA36592F18A0E28700C08650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA36593118A0E28700C08650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 914F24FEDDB847C8A5745168 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDCTapBack/MDCTapBack-Prefix.pch";
+				INFOPLIST_FILE = "MDCTapBack/MDCTapBack-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DA36593218A0E28700C08650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 914F24FEDDB847C8A5745168 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDCTapBack/MDCTapBack-Prefix.pch";
+				INFOPLIST_FILE = "MDCTapBack/MDCTapBack-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DA36593418A0E28700C08650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MDCTapBack.app/MDCTapBack";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDCTapBack/MDCTapBack-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MDCTapBackTests/MDCTapBackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DA36593518A0E28700C08650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MDCTapBack.app/MDCTapBack";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDCTapBack/MDCTapBack-Prefix.pch";
+				INFOPLIST_FILE = "MDCTapBackTests/MDCTapBackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA3658F618A0E28600C08650 /* Build configuration list for PBXProject "MDCTapBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA36592E18A0E28700C08650 /* Debug */,
+				DA36592F18A0E28700C08650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA36593018A0E28700C08650 /* Build configuration list for PBXNativeTarget "MDCTapBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA36593118A0E28700C08650 /* Debug */,
+				DA36593218A0E28700C08650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA36593318A0E28700C08650 /* Build configuration list for PBXNativeTarget "MDCTapBackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA36593418A0E28700C08650 /* Debug */,
+				DA36593518A0E28700C08650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA3658F318A0E28600C08650 /* Project object */;
+}
